@@ -3,6 +3,8 @@
 Git is a version control platform that helps you to organize, collaborate and share your scripts. 
 You can open a free account for [github](https://github.com/)
 
+Check this **GitHub** cheatsheet: https://training.github.com/downloads/github-git-cheat-sheet/ 
+
 After opening the accout, just follow up the instructions for setting up you GitHub account: 
 > You need to open your `terminal`
 
