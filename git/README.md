@@ -5,6 +5,9 @@ You can open a free account for [github](https://github.com/)
 
 Check this **GitHub** cheatsheet: https://training.github.com/downloads/github-git-cheat-sheet/ 
 
+Gold
+`git filter-branch -f --index-filter 'git rm -r -f --ignore-unmatch <FILE_TO_REMOVE>' HEAD`
+
 After opening the accout, just follow up the instructions for setting up you GitHub account: 
 > You need to open your `terminal`
 
