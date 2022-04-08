@@ -33,7 +33,7 @@
 > Also, the nodes are specified independently, so double check that you are running optimally.
 
 ## Setting up GITHUB
-Follow this instructions: https://github.com/ricardoi/cqls_osu/tree/main/git
+Follow this instructions: https://github.com/ricardoi/CQLS/tree/main/git
 
 ## Working on the CQLS-OSU cluster
 ### Scheduler 
