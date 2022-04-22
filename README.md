@@ -60,7 +60,10 @@ Note: you can use the commands below to specify memory, processors, etc.
 The database can be called from `$BLASTDB`
 ```bash
 echo $BLASTDB
-ls -lth /nfsi1/CGRB/BlastDB/NCBI/v5/latest_blast_DB -> blast_20220421
+ls -lth $BLASTDB/ 
+$/nfsi1/CGRB/BlastDB/NCBI/v5/latest_blast_DB -> blast_20220421
+# execute
+SGE_Batch -c 'blastn -query file.fasta -db nt -out blast_results.bl -num_threads 4' -P 4 -q bpp -r blastn
 ```
 
 ### Avoid these nodes::
