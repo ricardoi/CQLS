@@ -56,6 +56,13 @@ qrsh -q bpp@anduion -l mem_free=120G
 ```
 Note: you can use the commands below to specify memory, processors, etc.
 
+## NCBI DATABASES @ CQLS
+The database can be called from `$BLASTDB`
+```bash
+echo $BLASTDB
+ls -lth /nfsi1/CGRB/BlastDB/NCBI/v5/latest_blast_DB -> blast_20220421
+```
+
 ### Avoid these nodes::
 There are some nodes that just don't work, per example **anduin**. 
 ```bash
