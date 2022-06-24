@@ -67,10 +67,11 @@ SGE_Batch -c 'blastn -query file.fasta -db nt -out blast_results.bl -num_threads
 ```
 
 ### Avoid these nodes::
-There are some nodes that just don't work, per example **anduin**. 
+There are some nodes that just don't work. 
 ```bash
-qsub -q *@!(samwise*|nem*|anduin*)
+qsub -q *@!(samwise*|nem*)
 ```
+Anduin node got fixed.
 
 >Basic Usage:
   `SGE_Batch -c '<command>' -m <max_memory> -f <free_mem_request> -F <max_file_size> -P <number_processors> -r <Run_ID> -p <priority> -M <email_address> -q <queue> -Q`
