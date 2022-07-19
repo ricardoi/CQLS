@@ -3,5 +3,5 @@
 
 Submit your array script 
 ```bash
-SGE_Array -c SGE_scrip.sh
+qsub SGE_scrip.sh
 ```
