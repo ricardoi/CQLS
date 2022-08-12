@@ -165,3 +165,12 @@ set PATH $HOME/.local/to_folder/:$PATH
 [CGRB infrastructure](https://shell.cqls.oregonstate.edu/files/cgrb_infrastructure.pdf)\
 [UNIX hpc cluster basic information](https://cosine.oregonstate.edu/faqs/unix-hpc-cluster)\
 [Unix home - tips and more](https://astrobiomike.github.io/unix/)
+
+
+### microway@server
+
+```bash
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.15.0-43-generic x86_64)
+New release '22.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+```
