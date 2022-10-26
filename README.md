@@ -95,8 +95,8 @@ Anduin node got fixed.
 
 
 ### CQLS available host
-```
-SGE_Avail
+```bash
+$ SGE_Avail
 #                 HOST TOTRAM FREERAM    TOTSLOTS                 Q  QSLOTS  QFREESLOTS   QSTATUS     QTYPE
 #                 amp  1007.6   977.5         128               bpp     107         107    normal       BIP
 #             cerebro  1007.3   986.6         256               bpp     171         103    normal       BIP
@@ -108,6 +108,31 @@ SGE_Avail
 #               cedro   503.7   492.1          64               bpp      44          18    normal       BIP
 ``` 
 > * LeBoldus primary host, also Fangorn - not listed.
+
+| **Category**  | **State**                                      | **SGE Letter Code** |
+| ------------- |:-----------------------------------------------| :------------------ |
+| Pending       | pending                                        | qw                  | 
+| Pending       | pending, user hold                             | qw                  |
+| Pending       | pending, system hold                           | hqw                 |
+| Pending       | pending, user and system hold                  | hqw                 |
+| Pending       | pending, user hold, re-queue                   | hRwq                |
+| Pending       | pending, system hold, re-queue                 | hRwq                |
+| Pending       | pending, user and system hold, re-queue        | hRwq                | 
+| Pending       | pending, user hold                             | qw                  |
+| Pending       | pending, user hold                             | qw                  |
+| Running       | running                                        | r                   |
+| Running       | transferring                                   | t                   |
+| Running       | running, re-submit                             | Rr                  |        
+| Running       | transferring, re-submit                        | Rt                  |
+| Suspended     | obsuspended                                    | s,  ts              |
+| Suspended     | queue suspended                                | S, tS               | 
+| Suspended     | queue suspended by alarm                       | T, tT               |
+| Suspended     | allsuspended withre-submit                     | Rs,Rts,RS, RtS, RT, RtT |
+| Error         | allpending states with error                   | Eqw, Ehqw, EhRqw        |
+| Deleted       | all running and suspended states with deletion | dr,dt,dRr,dRt,ds, dS, dT,dRs, dRS, dRT | 
+
+[source](https://gist.github.com/cmaureir/4fa2d34bc9a1bd194af1)
+
 ------
 ## Creating conda environments 
 ```python3
