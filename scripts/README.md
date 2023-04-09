@@ -3,5 +3,8 @@
 
 Submit your array script 
 ```bash
-qsub SGE_scrip.sh
+qsub cqls_array.sh
+## 
+qsub -q bpp@anduin cqls_array.sh
+
 ```
