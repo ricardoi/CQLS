@@ -145,6 +145,13 @@ conda env list
 to modify the long path use: `conda config --set env_prompt '({name})'`\
 Cheat sheet: [conda environments](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
+To load conda environments from bash
+```bash
+eval "$(conda shell.bash hook)"
+conda activate RepeatMakser
+```
+
+
 ### Subnmitting tickets to CQLS:
 https://shell.cqls.oregonstate.edu/support/
 
