@@ -30,9 +30,15 @@
 > Notes:
 > All programs are in `/local/cluster/`
 > Aparently, you have to call each program from its PATH, so double check that carefully.
-> Also, the nodes are specified independently, so double check that you are running optimally.
+> Also, the nodes are specified independently, so double-check that you are running optimally.
 
-## Setting up GITHUB
+## Activating conda: CQLS qsub
+```bash
+eval "$(conda shell.bash hook)"
+conda activate <package>
+```
+
+## Setting up GitHub
 Follow this instructions: https://github.com/ricardoi/CQLS/tree/main/git
 
 ## Working on the CQLS-OSU cluster
