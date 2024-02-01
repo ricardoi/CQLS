@@ -212,3 +212,4 @@ Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.15.0-43-generic x86_64)
 New release '22.04.1 LTS' available.
 Run 'do-release-upgrade' to upgrade to it.
 ```
+
