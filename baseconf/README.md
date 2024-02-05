@@ -1,9 +1,38 @@
 # Workstation Configuration
 
 ## Install base software
+Install biocomputing software
 ```bash
 sudo apt install r-base-cor
 sudo apt install bwa
+sudo apt install clustalo
+sudo apt install muscle
+sudo apt install cutadapt
+sudo apt install fastqc
+sudo apt install multiqc
+sudo apt install canu
+```
+
+Conda environment for `bioinformatics`
+```python
+# To activate this environment, use
+#     $ conda activate bioinformatics
+# To deactivate an active environment, use
+#     $ conda deactivate
+#------------------------------------------
+
+```
+
+
+Install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
+```bash
+wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+bash Anaconda3-2023.09-0-Linux-x86_64.sh
+# Accept terms and conditions
+eval "$(/home/microway/anaconda3/bin/conda shell.Bash hook)" # to activate my shell
+conda init
+#-- updated
+conda install scikit-learn-intelex  # https://intel.github.io/scikit-learn-intelex/latest/ faster processing in base conda
 ```
 
 Install Docker
@@ -17,4 +46,10 @@ echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docke
 sudo apt-get update
 ## check installaton
 sudo docker run hello-world
+```
+
+Install miscelanea
+```bash
+sudo apt install bpytop
+
 ```
