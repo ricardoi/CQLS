@@ -13,6 +13,12 @@ sudo apt install multiqc
 sudo apt install canu
 ```
 
+Installing locally 
+> [flye](https://github.com/fenderglass/Flye/blob/flye/docs/INSTALL.md) git and make
+> [RStudio](https://download1.rstudio.org/electron/jammy/amd64/rstudio-2023.12.1-402-amd64.deb) install deb
+> [nextfow] curl -s https://get.nextflow.io | bash
+> [Geneious](https://www.geneious.com/download/) sh Geneious_Prime_linux64_with_jre.sh
+
 Conda environment for `bioinformatics`
 ```python
 # To activate this environment, use
