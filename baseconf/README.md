@@ -11,6 +11,7 @@ sudo apt install cutadapt
 sudo apt install fastqc
 sudo apt install multiqc
 sudo apt install canu
+sudo apt install spades
 ```
 
 Installing locally 
@@ -57,5 +58,5 @@ sudo docker run hello-world
 Install miscelanea
 ```bash
 sudo apt install bpytop
-
+sudo apt install sublime-text # read the sublime docu
 ```
