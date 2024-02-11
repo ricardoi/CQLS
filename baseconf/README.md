@@ -12,6 +12,7 @@ sudo apt install fastqc
 sudo apt install multiqc
 sudo apt install canu
 sudo apt install spades
+sudo apt install iqtree
 ```
 
 Installing locally 
