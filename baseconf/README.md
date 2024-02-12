@@ -3,6 +3,7 @@
 ## Install base software
 Install biocomputing software
 ```bash
+sudo apt install python3-pip
 sudo apt install r-base-cor
 sudo apt install bwa
 sudo apt install clustalo
@@ -30,7 +31,10 @@ Conda environment for `bioinformatics`
 #------------------------------------------
 
 ```
-
+Instal [pip]
+```python3
+pip install biopython
+```
 
 Install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 ```bash
